@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tests - PlacePilot AI</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+
+    <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="tests.html">Tests</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="interview.html">Interview</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="about.html">About</a></li>                   
+    </ul> 
+
+<!-- Top Bar -->
+<div class="top-bar">
+    <h2>Tests</h2>
+    <div class="profile-icon"></div>
+</div>
+
+<div class="tests-container">
+
+    <h1>Choose Your Test</h1>
+
+    <!-- Test Boxes -->
+    <div class="tests-grid" id="assessmentCatalog">
+        <div class="test-card"><h3>Loading assessments...</h3></div>
+    </div>
+
+    <div class="assessment-panel" id="assessmentPanel" style="display:none;">
+        <h2 id="assessmentTitle">Assessment</h2>
+        <form onsubmit="return submitAssessment(event)">
+            <div id="assessmentQuestions"></div>
+            <button class="save-btn" type="submit">Submit Assessment</button>
+        </form>
+    </div>
+
+    <!-- Description Section -->
+    <div class="test-description">
+
+        <div class="desc-block">
+            <h3>Aptitude Test</h3>
+            <ul>
+                <li><b>Aptitude:</b> Quantitative questions</li>
+                <li><b>Aptitude:</b> Logical reasoning</li>
+                <li><b>Aptitude:</b> Verbal ability</li>
+                <li><b>Aptitude:</b> Time-based test</li>
+                <li><b>Aptitude:</b> Score evaluation</li>
+            </ul>
+        </div>
+
+        <div class="desc-block">
+            <h3>Technical Test</h3>
+            <ul>
+                <li><b>Technical:</b> Core subjects MCQs</li>
+                <li><b>Technical:</b> Concept-based questions</li>
+                <li><b>Technical:</b> Branch specific topics</li>
+                <li><b>Technical:</b> Instant result</li>
+                <li><b>Technical:</b> Performance tracking</li>
+            </ul>
+        </div>
+
+        <div class="desc-block">
+            <h3>Coding Round</h3>
+            <ul>
+                <li><b>Coding:</b> DSA problems</li>
+                <li><b>Coding:</b> Logic building</li>
+                <li><b>Coding:</b> Multiple difficulty levels</li>
+                <li><b>Coding:</b> Code execution</li>
+                <li><b>Coding:</b> Time complexity focus</li>
+            </ul>
+        </div>
+
+        <div class="desc-block">
+            <h3>HR Test</h3>
+            <ul>
+                <li><b>HR:</b> Behavioral questions</li>
+                <li><b>HR:</b> Situational scenarios</li>
+                <li><b>HR:</b> Personality analysis</li>
+                <li><b>HR:</b> Communication skills</li>
+                <li><b>HR:</b> Feedback system</li>
+            </ul>
+        </div>
+
+        <div class="desc-block">
+            <h3>Mock Test</h3>
+            <ul>
+                <li><b>Mock:</b> Full placement simulation</li>
+                <li><b>Mock:</b> Mixed question types</li>
+                <li><b>Mock:</b> Real exam pattern</li>
+                <li><b>Mock:</b> Performance report</li>
+                <li><b>Mock:</b> Improvement insights</li>
+            </ul>
+        </div>
+
+        <div class="desc-block">
+            <h3>Previous Papers</h3>
+            <ul>
+                <li><b>Previous:</b> Company-wise questions</li>
+                <li><b>Previous:</b> Real interview papers</li>
+                <li><b>Previous:</b> Frequently asked questions</li>
+                <li><b>Previous:</b> Practice mode</li>
+                <li><b>Previous:</b> Solution explanations</li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="../js/script.js"></script>
+</body>
+</html>

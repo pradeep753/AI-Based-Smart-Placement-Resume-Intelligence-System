@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlacePilot AI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+    <div class="logo">
+        <h2>PlacePilot AI</h2>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+
+        <!-- 🔒 Protected Links -->
+        <li><a href="#" onclick="goToLogin(event)">Tests</a></li>
+        <li><a href="#" onclick="goToLogin(event)">Resume</a></li>
+        <li><a href="#" onclick="goToLogin(event)">Interview</a></li>
+        <li><a href="#" onclick="goToLogin(event)">Results</a></li>
+
+        <li><a href="pages/about.html">About</a></li>
+
+        <!-- ✅ Login -->
+        <li><a href="pages/login.html">Sign In</a></li>
+    </ul>
+</header>
+
+<!-- ================= HERO SECTION ================= -->
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Smart AI-Based Placement Preparation</h1>
+        <p>
+            Crack your dream job with AI-powered resume analysis, skill tracking,
+            mock interviews, and real-time performance insights.
+        </p>
+
+        <div class="hero-buttons">
+            <button onclick="location.href='pages/login.html'">Get Started</button>
+            <button onclick="scrollToFeatures()">Explore Features</button>
+        </div>
+    </div>
+</section>
+
+<!-- ================= FEATURES SECTION ================= -->
+
+<section class="features" id="features">
+    <div class="feature-card">
+        <h3>📄 Resume Analysis</h3>
+        <p>Upload your resume and get AI-based scoring with improvement suggestions.</p>
+    </div>
+
+    <div class="feature-card">
+        <h3>🧠 Aptitude Test</h3>
+        <p>Practice logical reasoning, quantitative and verbal ability tests.</p>
+    </div>
+
+    <div class="feature-card">
+        <h3>💻 Coding Round</h3>
+        <p>Solve real interview coding problems and improve your programming skills.</p>
+    </div>
+
+    <div class="feature-card">
+        <h3>🎤 AI Mock Interview</h3>
+        <p>Experience real-time AI-driven interview simulation with feedback.</p>
+    </div>
+
+    <div class="feature-card">
+        <h3>📊 Performance Tracking</h3>
+        <p>Track your daily progress with smart analytics and reports.</p>
+    </div>
+
+    <div class="feature-card">
+        <h3>💼 Job Recommendations</h3>
+        <p>Get job suggestions based on your skills, scores, and performance.</p>
+    </div>
+</section>
+
+<!-- ================= ABOUT SECTION ================= -->
+
+<section class="about" id="about">
+    <div class="about-content">
+        <h2>About PlacePilot AI</h2>
+
+        <p>
+            PlacePilot AI is an intelligent placement preparation platform designed
+            to help students become job-ready using advanced AI technologies.
+        </p>
+
+        <p>
+            It provides features like AI Resume Scoring, Smart Skill Gap Detection,
+            Real Interview Experience, and Daily Progress Tracking.
+        </p>
+
+        <div class="about-points">
+            <div class="point">AI Resume Scoring</div>
+            <div class="point">Smart Skill Gap Detection</div>
+            <div class="point">Real Interview Experience</div>
+            <div class="point">Daily Progress Tracking</div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+    <p>© 2026 PlacePilot AI | All Rights Reserved</p>
+</footer>
+
+<!-- JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

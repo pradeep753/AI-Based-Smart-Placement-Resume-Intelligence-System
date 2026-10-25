@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results - PlacePilot AI</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+     
+    <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="tests.html">Tests</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="interview.html">Interview</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="about.html">About</a></li>                   
+    </ul>
+
+<!-- Top Bar -->
+<div class="top-bar">
+    <h2>Results</h2>
+    <div class="profile-icon"></div>
+</div>
+
+<div class="results-container">
+
+    <h1>Your Performance</h1>
+    <p>Total attempts: <span id="totalAttempts">0</span></p>
+
+    <!-- Overall Score -->
+    <div class="overall-score">
+        <h2>Overall Score</h2>
+        <div class="score-circle">
+            <span id="overallScoreValue">0%</span>
+        </div>
+    </div>
+
+    <!-- Test Results -->
+    <div class="test-results">
+
+        <div class="result-box">
+            <p>Aptitude</p>
+            <div class="progress-bar">
+                <div class="progress aptitude" id="aptitudeBar"></div>
+            </div>
+            <span id="aptitudeScore">0%</span>
+        </div>
+
+        <div class="result-box">
+            <p>Technical</p>
+            <div class="progress-bar">
+                <div class="progress technical" id="technicalBar"></div>
+            </div>
+            <span id="technicalScore">0%</span>
+        </div>
+
+        <div class="result-box">
+            <p>Coding</p>
+            <div class="progress-bar">
+                <div class="progress coding" id="codingBar"></div>
+            </div>
+            <span id="codingScore">0%</span>
+        </div>
+
+        <div class="result-box">
+            <p>HR Round</p>
+            <div class="progress-bar">
+                <div class="progress hr" id="hrBar"></div>
+            </div>
+            <span id="hrScore">0%</span>
+        </div>
+
+    </div>
+
+</div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

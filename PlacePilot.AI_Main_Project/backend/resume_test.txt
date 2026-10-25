@@ -1,0 +1,1 @@
+I worked with JavaScript React Node.js Express MongoDB SQL and built REST API projects with AWS and Docker.

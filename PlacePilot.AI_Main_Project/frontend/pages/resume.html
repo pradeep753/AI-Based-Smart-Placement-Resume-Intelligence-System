@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume - PlacePilot AI</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+ 
+    <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="tests.html">Tests</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="interview.html">Interview</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="about.html">About</a></li>                   
+    </ul>
+
+<!-- Top Bar -->
+<div class="top-bar">
+    <h2>Resume Analysis</h2>
+    <div class="profile-icon"></div>
+</div>
+
+<div class="resume-container">
+
+    <h1>Upload Your Resume</h1>
+
+    <!-- Upload Box -->
+    <form class="upload-box" onsubmit="return uploadResume(event)">
+        <p>Drag & Drop your Resume or Click to Upload</p>
+        <input type="file" name="resume" accept=".pdf,.doc,.docx" required>
+        <br><br>
+        <button type="submit" class="save-btn">Upload Resume</button>
+    </form>
+
+    <!-- Cards Section -->
+    <div class="resume-result">
+
+        <div class="resume-card">
+            <h3>Resume Score</h3>
+            <p id="resumeScore">0/100</p>
+        </div>
+
+        <div class="resume-card">
+            <h3>Detected Skills</h3>
+            <ul id="resumeSkills">
+                <li>Upload resume to detect skills.</li>
+            </ul>
+        </div>
+
+        <div class="resume-card">
+            <h3>Improvement Tips</h3>
+            <p id="resumeFeedback">Upload a resume to see feedback.</p>
+            <ul id="resumeImprovements">
+                <li>Tips will appear after analysis.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Description Section -->
+    <div class="resume-description">
+
+        <div class="desc-block">
+            <h3>Resume Score</h3>
+            <ul>
+                <li><b>Score:</b> Overall resume rating</li>
+                <li><b>Score:</b> ATS compatibility check</li>
+                <li><b>Score:</b> Format evaluation</li>
+                <li><b>Score:</b> Content quality analysis</li>
+                <li><b>Score:</b> Instant result display</li>
+            </ul>
+        </div>
+
+        <div class="desc-block">
+            <h3>Detected Skills</h3>
+            <ul>
+                <li><b>Skills:</b> Technical skills detection</li>
+                <li><b>Skills:</b> Programming languages</li>
+                <li><b>Skills:</b> Tools & technologies</li>
+                <li><b>Skills:</b> Experience-based skills</li>
+                <li><b>Skills:</b> Skill categorization</li>
+            </ul>
+        </div>
+
+        <div class="desc-block">
+            <h3>Best Match Jobs</h3>
+            <ul id="jobRecommendations">
+                <li>Upload resume to get best matching job suggestions.</li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

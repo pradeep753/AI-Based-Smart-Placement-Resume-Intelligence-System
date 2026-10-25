@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile - PlacePilot AI</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="profile-layout">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Dashboard</h2>
+        <ul>
+            <li>My List</li>
+            <li>Progress</li>
+            <li>Settings</li>
+            <li>Appearance</li>
+            <div onclick="logoutUser()" class="signout-btn">Sign Out</div>
+            
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <button class="edit-btn">Edit Profile</button>
+            <div class="profile-icon"></div>
+        </div>
+
+        <!-- Progress Section -->
+        <div class="progress-section">
+            <h2>Overall Progress</h2>
+
+            <div class="circle-progress">
+                <span>70%</span>
+            </div>
+
+        </div>
+
+        <!-- Calendar -->
+        <div class="calendar-section">
+            <h3>Activity Calendar</h3>
+
+            <div class="months">
+
+                <div class="month">
+                    <p>Jan</p>
+                    <div class="calendar-grid">
+                        <div></div><div></div><div class="active"></div><div></div><div></div>
+                        <div></div><div class="active"></div><div></div><div></div><div></div>
+                    </div>
+                </div>
+
+                <div class="month">
+                    <p>Feb</p>
+                    <div class="calendar-grid">
+                        <div></div><div class="active"></div><div></div><div></div><div></div>
+                        <div></div><div></div><div class="active"></div><div></div><div></div>
+                    </div>
+                </div>
+
+                <div class="month">
+                    <p>Mar</p>
+                    <div class="calendar-grid">
+                        <div></div><div></div><div></div><div class="active"></div><div></div>
+                        <div></div><div></div><div></div><div class="active"></div><div></div>
+                    </div>
+                </div>
+
+                <div class="month">
+                    <p>Apr</p>
+                    <div class="calendar-grid">
+                        <div></div><div></div><div class="active"></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div class="active"></div>
+                    </div>
+                </div>
+
+                <div class="month">
+                    <p>May</p>
+                    <div class="calendar-grid">
+                        <div></div><div></div><div></div><div class="active"></div><div></div>
+                        <div></div><div class="active"></div><div></div><div></div><div></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
